@@ -1,40 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AutoFeeder</title>
+  <title>Contato | AutoFeeder</title>
   <link rel="stylesheet" href="styles/index.css">
+
 </head>
 
 <body>
-
-  <!-- Cabeçalho -->
   <header>
-    <div id="area-logo">
-      <h1>Auto<span class="branco">Feeder</span></h1>
+    <div class="logo">
+      <h1>Auto<span>Feeder</span></h1>
     </div>
-
-    <nav id="area-menu">
+    <nav class="menu">
       <a href="home.html">Home</a>
+      <a href="produto.html">Produto</a>
       <a href="projeto.html">Projeto</a>
       <a href="colaboradores.html">Colaboradores</a>
+      <a href="galeria.html">Galeria</a>
       <a href="contato.html">Contato</a>
-      <a href="sobre.html">Sobre</a>
     </nav>
   </header>
 
-  <!-- Conteúdo principal -->
-  <main>
-    <!-- O conteúdo da página vai aqui -->
+  <main class="contato-container">
+    <section class="info-contato">
+      <h2>Informações de Contato</h2>
+      <p>📞 <strong>Telefone:</strong> +55 (81) 99999-9999</p>
+      <p>📧 <strong>Email:</strong> autofeeder@cesar.school</p>
+      <p>📍 <strong>Endereço:</strong> CESAR School - Recife, PE</p>
+      <p>🌐 <strong>Redes Sociais:</strong></p>
+      <p>
+        <a href="#">Instagram</a> | 
+        <a href="#">LinkedIn</a> | 
+        <a href="#">GitHub</a>
+      </p>
+      <div class="mapa">
+        <img src="images/mapa.png" alt="Localização no mapa">
+      </div>
+    </section>
+
+    <section class="formulario">
+      <h2>Envie uma Mensagem</h2>
+      <form action="#" method="post">
+        <div class="grupo-input">
+          <label>Nome:</label>
+          <input type="text" name="nome" required>
+
+          <label>Sobrenome:</label>
+          <input type="text" name="sobrenome" required>
+        </div>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+
+        <label>Mensagem:</label>
+        <textarea name="mensagem" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
   </main>
 
-  <!-- Rodapé -->
   <footer>
-    <p>&copy; 2025 AutoFeeder | Todos os direitos reservados.</p>
+    <p>&copy; 2025 AutoFeeder | Projeto acadêmico - CESAR School</p>
   </footer>
-
 </body>
-
 </html>
+

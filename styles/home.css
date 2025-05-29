@@ -1,0 +1,49 @@
+.home-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  .home-hero {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .home-hero h2 {
+    color: #0a74da;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .home-hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .home-hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .home-sobre {
+    margin-bottom: 2rem;
+  }
+  
+  .home-sobre h3,
+  .home-beneficios h3 {
+    color: #0a74da;
+    margin-bottom: 0.5rem;
+  }
+  
+  .home-beneficios ul {
+    list-style: disc inside;
+    padding-left: 1rem;
+  }
+  
+  .home-beneficios li {
+    margin-bottom: 0.5rem;
+  }

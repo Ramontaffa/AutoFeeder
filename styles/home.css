@@ -43,3 +43,40 @@
   color: #333;
 }
 
+/* Logo */
+#area-logo h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+#area-logo .branco {
+  color: purple;
+}
+
+/* Menu */
+#area-menu {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+#area-menu a {
+  text-decoration: none;
+  color: #222;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+#area-menu a:hover {
+  color: #0a74da;
+}
+
+/* Header geral */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  border-bottom: 5px solid #f5d5ee; /* faixa rosa clara */
+}

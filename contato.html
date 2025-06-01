@@ -1,70 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contato | AutoFeeder</title>
-  <link rel="stylesheet" href="styles/index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato | AutoFeeder</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
 
-</head>
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
 
-<body>
-  <header>
-    <div class="logo">
-      <h1>Auto<span>Feeder</span></h1>
-    </div>
-    <nav class="menu">
-      <a href="home.html">Home</a>
-      <a href="produto.html">Produto</a>
-      <a href="projeto.html">Projeto</a>
-      <a href="colaboradores.html">Colaboradores</a>
-      <a href="galeria.html">Galeria</a>
-      <a href="contato.html">Contato</a>
-    </nav>
-  </header>
-
-  <main class="contato-container">
-    <section class="info-contato">
-      <h2>Informações de Contato</h2>
-      <p>📞 <strong>Telefone:</strong> +55 (81) 99999-9999</p>
-      <p>📧 <strong>Email:</strong> autofeeder@cesar.school</p>
-      <p>📍 <strong>Endereço:</strong> CESAR School - Recife, PE</p>
-      <p>🌐 <strong>Redes Sociais:</strong></p>
-      <p>
-        <a href="#">Instagram</a> | 
-        <a href="#">LinkedIn</a> | 
-        <a href="#">GitHub</a>
-      </p>
-      <div class="mapa">
-        <img src="images/mapa.png" alt="Localização no mapa">
+  <body>
+    <header>
+      <div class="logo">
+        <h1>Auto<span>Feeder</span></h1>
       </div>
-    </section>
+      <nav class="menu">
+        <a href="home.html">Home</a>
+        <a href="produto.html">Produto</a>
+        <a href="projeto.html">Projeto</a>
+        <a href="colaboradores.html">Colaboradores</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+    </header>
 
-    <section class="formulario">
-      <h2>Envie uma Mensagem</h2>
-      <form action="#" method="post">
-        <div class="grupo-input">
-          <label>Nome:</label>
-          <input type="text" name="nome" required>
+    <main class="contato-container">
+      <section class="info-contato">
+        <h2>Informações de Contato</h2>
+        <p>📞 <strong>Telefone:</strong> +55 (81) 99999-9999</p>
+        <p>📧 <strong>Email:</strong> autofeeder@cesar.school</p>
+        <p>
+          📍 <strong>Endereço:</strong> Avenida, Cais do Apolo, 77, Recife - PE,
+          50030-220/p>
+        </p>
+        <p>🌐 <strong>Redes Sociais:</strong></p>
+        <p class="redes">
+          <a href="https://instagram.com/" class="instagram" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://linkedin.com/" class="linkedin" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/" class="github" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </p>
 
-          <label>Sobrenome:</label>
-          <input type="text" name="sobrenome" required>
+        <div class="mapa">
+          <iframe
+            src="https://maps.google.com/maps?q=Recife&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            width="100%"
+            height="200"
+            style="border: 0"
+            allowfullscreen
+            loading="lazy"
+          ></iframe>
         </div>
+      </section>
 
-        <label>Email:</label>
-        <input type="email" name="email" required>
+      <section class="formulario">
+        <h2>Envie uma Mensagem</h2>
+        <form action="#" method="post">
+          <div class="grupo-input">
+            <label>Nome:</label>
+            <input type="text" name="nome" required />
+          </div>
 
-        <label>Mensagem:</label>
-        <textarea name="mensagem" rows="5" required></textarea>
+          <label>Email:</label>
+          <input type="email" name="email" required />
 
-        <button type="submit">Enviar</button>
-      </form>
-    </section>
-  </main>
+          <label>Mensagem:</label>
+          <textarea name="mensagem" rows="5" required></textarea>
 
-  <footer>
-    <p>&copy; 2025 AutoFeeder | Projeto acadêmico - CESAR School</p>
-  </footer>
-</body>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 AutoFeeder | Projeto acadêmico - CESAR School</p>
+    </footer>
+  </body>
 </html>
-

@@ -1,0 +1,41 @@
+.tabela-integrantes {
+  width: 100%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  background-color: #fff;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.tabela-integrantes th,
+.tabela-integrantes td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.tabela-integrantes th {
+  background-color: #f8f9fa;
+  color: #343a40;
+  font-weight: 600;
+}
+
+.tabela-integrantes td {
+  color: #495057;
+}
+
+.tabela-integrantes tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.tabela-integrantes tbody tr:hover {
+  background-color: #f1f3f5;
+}
+
+.tabela-integrantes tbody td:first-child {
+  color: #212529;
+  font-weight: 500;
+}
+

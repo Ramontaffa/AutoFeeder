@@ -1,0 +1,68 @@
+/* Estilo específico da página Projeto */
+
+main {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+  color: blueviolet;
+  margin-bottom: 16px;
+}
+
+main p {
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+section {
+  margin-bottom: 32px;
+}
+
+section h3 {
+  background-color: blueviolet;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+ul, ol {
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+
+ul li {
+  margin-bottom: 6px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 16px;
+}
+
+table, th, td {
+  border: 1px solid #999;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #e6e6e6;
+}
+
+a {
+  color: blueviolet;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: darkviolet;
+}
+

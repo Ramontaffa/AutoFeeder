@@ -1,40 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato | AutoFeeder</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AutoFeeder</title>
-  <link rel="stylesheet" href="styles/index.css">
-</head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>Auto<span>Feeder</span></h1>
+      </div>
+      <nav class="menu">
+        <a href="home.html">Home</a>
+        <a href="produto.html">Produto</a>
+        <a href="projeto.html">Projeto</a>
+        <a href="colaboradores.html">Colaboradores</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+    </header>
 
-<body>
+    <main class="contato-container">
+      <section class="info-contato">
+        <h2>Informações de Contato</h2>
+        <p>📞 <strong>Telefone:</strong> +55 (81) 99999-9999</p>
+        <p>📧 <strong>Email:</strong> autofeeder@cesar.school</p>
+        <p>
+          📍 <strong>Endereço:</strong> Avenida, Cais do Apolo, 77, Recife - PE,
+          50030-220/p>
+        </p>
+        <p>🌐 <strong>Redes Sociais:</strong></p>
+        <p class="redes">
+          <a href="https://instagram.com/" class="instagram" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://linkedin.com/" class="linkedin" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/" class="github" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </p>
 
-  <!-- Cabeçalho -->
-  <header>
-    <div id="area-logo">
-      <h1>Auto<span class="branco">Feeder</span></h1>
-    </div>
+        <div class="mapa">
+          <iframe
+            src="https://maps.google.com/maps?q=Recife&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            width="100%"
+            height="200"
+            style="border: 0"
+            allowfullscreen
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
 
-    <nav id="area-menu">
-      <a href="home.html">Home</a>
-      <a href="projeto.html">Projeto</a>
-      <a href="colaboradores.html">Colaboradores</a>
-      <a href="contato.html">Contato</a>
-      <a href="sobre.html">Sobre</a>
-    </nav>
-  </header>
+      <section class="formulario">
+        <h2>Envie uma Mensagem</h2>
+        <form action="#" method="post">
+          <div class="grupo-input">
+            <label>Nome:</label>
+            <input type="text" name="nome" required />
+          </div>
 
-  <!-- Conteúdo principal -->
-  <main>
-    <!-- O conteúdo da página vai aqui -->
-  </main>
+          <label>Email:</label>
+          <input type="email" name="email" required />
 
-  <!-- Rodapé -->
-  <footer>
-    <p>&copy; 2025 AutoFeeder | Todos os direitos reservados.</p>
-  </footer>
+          <label>Mensagem:</label>
+          <textarea name="mensagem" rows="5" required></textarea>
 
-</body>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
 
+    <footer>
+      <p>&copy; 2025 AutoFeeder | Projeto acadêmico - CESAR School</p>
+    </footer>
+  </body>
 </html>
